@@ -1,0 +1,22 @@
+name: experiment_9
+description: Experiment 9 - Connect Flutter UI with Firebase (Cloud Firestore).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Versions left open; `flutterfire configure` / `flutter pub get` resolves
+  # the latest compatible ones. Pin them with `flutter pub add` if required.
+  firebase_core: any
+  cloud_firestore: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
